@@ -1,0 +1,196 @@
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    #header_sec #header_details {
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #header_sec figure {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    #horizontal_navbar .container #horizontal_nav_list {
+        display: none;
+    }
+
+    #horizontal_navbar .container #settings #vertical_nav_bar_settings #bars {
+        display: inline;
+    }
+
+    #header_sec .container {
+        width: 540px;
+        flex-direction: column-reverse;
+    }
+
+    #header_sec #header_details #header_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #header_sec #header_details #header_buttons #book_table {
+        position: relative;
+        left: 10px;
+    }
+
+    #chefs_sec .container {
+        flex-flow: column wrap;
+    }
+
+    #chefs_sec .container .chefs_cards {
+        width: 90%;
+    }
+
+    #gallery_sec .container #masonry_box {
+        column-count: 1;
+    }
+
+    #contact_sec .container article {
+        width: 100%;
+    }
+
+    #contact_sec .container form #yourName {
+        width: 100%;
+    }
+
+    #contact_sec .container form #yourEmail {
+        width: 100%;
+    }
+
+    #footer_sec .container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    #footer_sec .container #footer_social_media {
+        width: 100%;
+    }
+
+    #footer_sec .container #footer_get_in_touch {
+        width: 100%;
+    }
+
+    #footer_sec .container #footer_subscribeNquickLinks {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+
+    #header_sec .container {
+        flex-direction: column-reverse;
+    }
+
+    #header_sec #header_details {
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    #header_sec figure {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    #horizontal_navbar .container #horizontal_nav_list {
+        display: none;
+    }
+
+    #horizontal_navbar .container #settings #vertical_nav_bar_settings #bars {
+        display: inline;
+    }
+
+    #chefs_sec .container {
+        flex-wrap: wrap;
+    }
+
+    #chefs_sec .container .chefs_cards {
+        width: 48%;
+    }
+
+    #gallery_sec .container #masonry_box {
+        column-count: 2;
+    }
+
+    #contact_sec .container form #yourName {
+        width: 100%;
+    }
+
+    #contact_sec .container form #yourEmail {
+        width: 100%;
+    }
+
+    #footer_sec .container {
+        flex-wrap: wrap;
+    }
+
+    #footer_sec .container #footer_social_media {
+        width: 45%;
+    }
+
+    #footer_sec .container #footer_get_in_touch {
+        width: 45%;
+    }
+
+    #footer_sec .container #footer_subscribeNquickLinks {
+        order: 2;
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+
+    #header_sec {
+        min-height: 50vh;
+    }
+
+    #horizontal_navbar .container #horizontal_nav_list {
+        display: none;
+    }
+
+    #horizontal_navbar .container #settings #vertical_nav_bar_settings #bars {
+        display: inline;
+    }
+
+    #footer_sec .container {
+        flex-wrap: wrap;
+    }
+
+    #footer_sec .container #footer_social_media {
+        width: 45%;
+    }
+
+    #footer_sec .container #footer_get_in_touch {
+        width: 45%;
+    }
+
+    #footer_sec .container #footer_subscribeNquickLinks {
+        order: 2;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media screen and (min-width: 1401px) {
+    .container {
+        width: 1400px;
+    }
+}
